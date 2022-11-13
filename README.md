@@ -1,2 +1,3 @@
-# leetcode
+# LeetCode
+
 Question Bank of LeetCode.
