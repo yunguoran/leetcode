@@ -6,6 +6,7 @@ import java.util.HashMap;
 /**
  * @author Yunguoran
  * @see: <a href="https://leetcode.cn/problems/two-sum/">two-sum</a>
+ * 使用 Map 的 key 存储 target 与数组元素的差值，value 存储数组元素的 index，以达到降低时间复杂度的目的。
  */
 public class Solution {
 
@@ -21,7 +22,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(twoSum(new int[]{2,7,11,15}, 9)));
+        System.out.println(Arrays.toString(twoSum(new int[]{11, 15, 7, 2}, 9)));
     }
 }
 
